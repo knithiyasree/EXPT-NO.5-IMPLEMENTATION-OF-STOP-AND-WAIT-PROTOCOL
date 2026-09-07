@@ -22,6 +22,7 @@
 ## Step 16: Stop the program.
  
 # PROGRAM:
+```
 ## set ns [new Simulator]
 ## set namfile [open out.nam w]
 ## $ns namtrace-all $namfile proc finish {}
@@ -68,6 +69,7 @@
 ## $ns at 0.0 "$n0 label Sender"
 ## $ns at 0.0 "$n1 label Receiver"
 ## $ns run
+```
  
 # OUTPUT:
 <img width="1280" height="820" alt="WhatsApp Image 2026-09-05 at 8 45 01 PM" src="https://github.com/user-attachments/assets/938edeb0-95b0-4048-9c66-ea238f90b17d" />
